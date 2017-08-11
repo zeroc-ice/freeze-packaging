@@ -140,7 +140,9 @@ make -C cpp %{makeinstallopts} ICE_BIN_DIST=all install
 %license LICENSE
 %{_libdir}/libFreeze.so.*
 %post -n lib%{?nameprefix}freeze3.7-c++ -p /sbin/ldconfig
-%postun -n lib%{?nameprefix}freeze3.7-c++ -p /sbin/ldconfig
+%postun -n lib%{?nameprefix}freeze3.7-c++
+/sbin/ldconfig
+exit 0
 
 #
 # libfreeze-c++-devel package
