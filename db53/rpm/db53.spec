@@ -31,14 +31,14 @@ ExcludeArch: %{ix86}
 Summary: The Berkeley DB database library (version 5.3) for C and C++
 Name: db53
 Version: 5.3.28
-Release: 2ice%{?dist}
+Release: 3ice%{?dist}
 Source0: http://download.oracle.com/berkeley-db/db-%{version}.NC.tar.gz
 Patch0: https://zeroc.com/download/berkeley-db/berkeley-db.5.3.28.patch
 URL: http://www.oracle.com/technetwork/products/berkeleydb/
 License: Berkeley DB open-source license
 Group: System Environment/Libraries
 Packager: ZeroC, Inc.
-BuildRequires: perl, libtool
+BuildRequires: perl, libtool, java-devel >= 1.7.0
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 %description
@@ -251,6 +251,9 @@ rm -rf ${RPM_BUILD_ROOT}
 %endif
 
 %changelog
+
+* Sat Aug 26 2017 Benoit <benoit@zeroc.com> 5.3.28-3ice
+- Added build require on java-devel >= 1.7.0 and rebuilt with Java 1.7
 
 * Mon Apr 4 2016 Benoit Foucher <benoit@zeroc.com> 5.3.28-2ice
 - Patch to prevent compilation warnings related to __atomic_compare_exchange_db
