@@ -88,7 +88,7 @@ Group: Development/Tools
 Obsoletes: ice-c++-devel < 3.6
 Requires: lib%{?nameprefix}freeze3.7-c++%{?_isa} = %{version}-%{release}
 Requires: %{?nameprefix}freeze-compilers(x86-64) = %{version}-%{release}
-Requires: lib%{?nameprefix}ice-c++-devel%{?_isa} >= 3.7.0, lib%{?nameprefix}ice-c++-devel%{?_isa} < 3.8.0
+Requires: lib%{?nameprefix}ice-c++-devel%{?_isa} >= 3.7.1, lib%{?nameprefix}ice-c++-devel%{?_isa} < 3.8.0
 %description -n lib%{?nameprefix}freeze-c++-devel
 This package contains the library and header files needed for developing
 Freeze applications in C++.
@@ -100,7 +100,7 @@ Freeze provides persistent storage for Ice objects.
 %package -n %{?nameprefix}freeze-compilers
 Summary: Slice compilers for developing Freeze applications
 Group: Development/Tools
-Requires: %{?nameprefix}ice-slice >= 3.7.0, %{?nameprefix}ice-slice < 3.8.0
+Requires: %{?nameprefix}ice-slice >= 3.7.1, %{?nameprefix}ice-slice < 3.8.0
 %description -n %{?nameprefix}freeze-compilers
 This package contains Slice compilers for developing Freeze applications.
 Freeze provides persistent storage for Ice objects.
