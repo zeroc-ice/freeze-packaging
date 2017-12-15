@@ -1,3 +1,9 @@
+zeroc-ice (3.7.1-1) UNRELEASED; urgency=medium
+
+  * Update to version 3.7.1
+
+ -- José Gutiérrez de la Concha <jose@zeroc.com>  Fri, 15 Dec 2017 15:40:31 +0000
+
 zeroc-freeze (3.7.0-1) unstable; urgency=medium
 
   * Freeze 3.7.0 release
