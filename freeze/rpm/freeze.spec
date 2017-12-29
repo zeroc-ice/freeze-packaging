@@ -173,7 +173,7 @@ exit 0
 %{_mandir}/man1/transformdb.1*
 
 %changelog
-* Thu Dec 29 2017 José Gutiérrez de la Concha <jose@zeroc.com> 3.7.1
+* Fri Dec 29 2017 José Gutiérrez de la Concha <jose@zeroc.com> 3.7.1
 - Updated version
 
 * Thu Jun 8 2017 Bernard Normier <bernard@zeroc.com> 3.7.0
