@@ -1,6 +1,6 @@
 # **********************************************************************
 #
-# Copyright (c) 2003-2017 ZeroC, Inc. All rights reserved.
+# Copyright (c) 2003-2018 ZeroC, Inc. All rights reserved.
 #
 # **********************************************************************
 
@@ -173,8 +173,10 @@ exit 0
 %{_mandir}/man1/transformdb.1*
 
 %changelog
-* Fri Dec 29 2017 José Gutiérrez de la Concha <jose@zeroc.com> 3.7.1
-- Updated version
+
+
+* Fri April 13 2018 José Gutiérrez de la Concha <jose@zeroc.com> 3.7.1
+- 3.7.1 release
 
 * Thu Jun 8 2017 Bernard Normier <bernard@zeroc.com> 3.7.0
 - Updated version
