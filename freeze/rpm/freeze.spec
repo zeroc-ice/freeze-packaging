@@ -175,7 +175,7 @@ exit 0
 %changelog
 
 
-* Fri April 13 2018 José Gutiérrez de la Concha <jose@zeroc.com> 3.7.1
+* Fri Apr 13 2018 José Gutiérrez de la Concha <jose@zeroc.com> 3.7.1
 - 3.7.1 release
 
 * Thu Jun 8 2017 Bernard Normier <bernard@zeroc.com> 3.7.0
