@@ -23,6 +23,14 @@
 %define libdbcxx libdb-cxx
 %define libdbcxxdevel libdb-cxx-devel
 
+
+#
+# SLES12 does not define %{dist}
+#
+%if 0%{?suse_version} == 1315
+%global dist                  .sles12
+%endif
+
 %if "%{dist}" == ".sles12"
   %define bzip2devel libbz2-devel
   %define libdbcxx db53
