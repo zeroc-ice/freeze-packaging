@@ -63,7 +63,7 @@ License: GPLv2
 Vendor: ZeroC, Inc.
 URL: https://zeroc.com/
 Source0: https://github.com/zeroc-ice/freeze/archive/%{archive_tag}/%{name}-%{version}.tar.gz
-Source1: https://github.com/zeroc-ice/ice/archive/3.7/ice-3.7.tar.gz
+Source1: https://github.com/zeroc-ice/ice/archive/%{archive_tag}/ice-%{version}.tar.gz
 BuildRequires: pkgconfig(expat), pkgconfig(mcpp), pkgconfig(openssl), libice-c++-devel, %{bzip2devel}, %{libdbcxxdevel}
 %description
 Not used
