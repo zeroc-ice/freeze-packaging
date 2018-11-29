@@ -4,6 +4,13 @@
 # This is a heavily modified version of the spec file in Fedora Core 7's db4-4.5.20-4.fc7.src.rpm
 #
 
+#
+# SLES12 does not define %{dist}
+#
+%if 0%{?suse_version} == 1315
+%global dist                  .sles12
+%endif
+
 %if "%{dist}" == ".sles12"
 # SLES 12 should only be built on x86_64
 ExcludeArch: %{ix86}
