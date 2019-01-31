@@ -126,7 +126,7 @@ Freeze provides persistent storage for Ice objects.
 %prep
 %setup -q -n freeze-%{archive_dir_suffix} -a 1
 rmdir ice
-mv ice-3.7 ice
+mv ice-%{archive_dir_suffix} ice
 
 %build
 # recommended flags for optimized hardened build
