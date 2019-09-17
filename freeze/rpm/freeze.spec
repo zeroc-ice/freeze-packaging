@@ -180,6 +180,8 @@ exit 0
 
 %changelog
 
+* Tue Sep 17 2019 Benoit Foucher <benoit@zeroc.com> 3.7.3
+- 3.7.3 release
 
 * Fri Apr 13 2018 José Gutiérrez de la Concha <jose@zeroc.com> 3.7.1
 - 3.7.1 release
