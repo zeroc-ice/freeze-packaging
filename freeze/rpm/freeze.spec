@@ -179,7 +179,7 @@ exit 0
 
 %changelog
 
-*  Tue Apr 21 2020 José Gutiérrez de la Concha <jose@zeroc.com> 3.7.4
+* Tue Apr 21 2020 José Gutiérrez de la Concha <jose@zeroc.com> 3.7.4
 - 3.7.4 release
 
 * Tue Sep 17 2019 Benoit Foucher <benoit@zeroc.com> 3.7.3
