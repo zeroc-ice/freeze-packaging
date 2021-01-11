@@ -179,6 +179,9 @@ exit 0
 
 %changelog
 
+* Mon Jan 11 2021 José Gutiérrez de la Concha <jose@zeroc.com> 3.7.5
+- 3.7.5 release
+
 * Tue Apr 21 2020 José Gutiérrez de la Concha <jose@zeroc.com> 3.7.4
 - 3.7.4 release
 
