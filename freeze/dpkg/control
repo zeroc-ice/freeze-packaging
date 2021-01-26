@@ -38,7 +38,7 @@ Section: libdevel
 Replaces: libzeroc-freeze-dev (<= 3.6.3-1)
 Breaks: libzeroc-freeze-dev (<= 3.6.3-1)
 Depends: libzeroc-freeze3.7 (= ${binary:Version}),
-         libzeroc-ice-dev (= 3.7.4-1),
+         libzeroc-ice-dev (= 3.7.5-1),
          zeroc-freeze-compilers (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
@@ -73,7 +73,7 @@ Section: admin
 Replaces: zeroc-ice-compilers (<= 3.6.3-1)
 Breaks: zeroc-ice-compilers (<= 3.6.3-1)
 Depends: libzeroc-freeze3.7 (= ${binary:Version}),
-         zeroc-ice-slice (= 3.7.4-1),
+         zeroc-ice-slice (= 3.7.5-1),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Slice compilers for developing Freeze applications
