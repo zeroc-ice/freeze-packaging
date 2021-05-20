@@ -11,7 +11,7 @@
 %else
    # git_tag_version is the git tag vX.Y.Z[...] less the v prefix
    # if not defined, we default to the version provided below
-   %{!?git_tag_version:%define git_tag_version 3.7.5}
+   %{!?git_tag_version:%define git_tag_version 3.7.6}
    %define archive_tag v%{git_tag_version}
    %define archive_dir_suffix %{git_tag_version}
 %endif
@@ -49,7 +49,7 @@
 %define makeinstallopts CONFIGS="shared" OPTIMIZE=yes V=1 %{runpath} DESTDIR=%{buildroot} prefix=%{_prefix} install_bindir=%{_bindir} install_libdir=%{_libdir} install_includedir=%{_includedir} install_mandir=%{_mandir}
 
 Name: %{?nameprefix}freeze
-Version: 3.7.5
+Version: 3.7.6
 Summary: Persistent storage for Ice objects
 Release: 1%{?dist}
 %if "%{?ice_license}"
@@ -178,6 +178,9 @@ exit 0
 %{_mandir}/man1/transformdb.1*
 
 %changelog
+
+* Thu May 20 2021 José Gutiérrez de la Concha <jose@zeroc.com> 3.7.6
+- 3.7.6 release
 
 * Mon Jan 11 2021 José Gutiérrez de la Concha <jose@zeroc.com> 3.7.5
 - 3.7.5 release
