@@ -178,8 +178,14 @@ exit 0
 %{_mandir}/man1/transformdb.1*
 
 %changelog
-* Tue Nov 30 2021 José Gutiérrez de la Concha <jose@zeroc.com> 3.7.6
-- 3.7.6 release
+* Tue Mar 14 2023 José Gutiérrez de la Concha <jose@zeroc.com> 3.7.9
+- 3.7.9 release
+
+* Mon Jun 27 2022 José Gutiérrez de la Concha <jose@zeroc.com> 3.7.8
+- 3.7.8 release
+
+* Tue Nov 30 2021 José Gutiérrez de la Concha <jose@zeroc.com> 3.7.7
+- 3.7.7 release
 
 * Thu May 20 2021 José Gutiérrez de la Concha <jose@zeroc.com> 3.7.6
 - 3.7.6 release
